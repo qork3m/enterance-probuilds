@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #242424;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #242424;
+    box-shadow: 0 2px 4px 0 rgb(5 5 5 / 50%);
+    border-bottom: 1px solid #353535;
+    z-index: 20;
+}
+#nav-bar-container{
+    margin-left: 220px;
+}
+#bg-image{
+    float: left;
+    padding: 13px;
+    padding-left: 0;
+    max-width: 200px;
+    height: auto;
+
+    
+}
+#bg-image img{
+    width: 100%;
+}
+#menu{
+    float: left;
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    padding: 21px;
+}
+#menu a{
+    text-decoration: none;
+    color: #CBCBC1;
+    display: inline-block;
+}
+#language{
+    height: auto;
+    float: left;
+    padding: 13px;
+}
+#language select{
+    font-weight: bold;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    background-color: inherit;
+    color: #CBCBC1;
+}
+#language select:focus{
+    background-color: #242423;
+    color: #fff;
+}
+#download{
+    float: left;
+    background-color: inherit;
+    padding: 15px;
+    border: none;
+}
+.btn{
+    background-color: #E03F54;
+    border: 1px solid #E03F54 ;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: none;
+    color: #fff;
+    display: inline-block;
+    padding: 7px;
+    padding-left: 10px;
+}
+.btn:hover{
+    background-color: #F55B5F;
+}
+
+/*search*/
+#search{
+    margin-top: 200px;
+    color: #cbcbcb;
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 1000px;
+}
+#srch-chmp{
+    margin-top: 15px;
+    width: 52%;
+    border-radius: 5px;
+    height: 35px;
+    
+}
+.search-button{
+    position: absolute;
+    top: 248px;
+    left: 660px;
+    width: 25px;
+    height: 25px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #FFC400;
+    color: black;
+    padding: 3px;
+}
+#search-text{
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.6;
+    width: 52%;
+    margin-top: 40px;
+    line-height: 25px;
+}
